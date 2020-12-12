@@ -1,0 +1,55 @@
+.home {
+    background-image: url(../../assets//banner.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+
+.welcome{
+    font-family: Roboto;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0px;
+
+}
+
+.qua{
+font-family: Roboto;
+font-size: 60px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0px;
+margin-bottom: 20px;
+
+}
+
+.sol{
+    font-family: Roboto;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0px;  
+}
+
+.explore{
+    height: 36px;
+    width: 300px;
+    border-radius: 4px;
+    line-height: 30px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1.25px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 2px solid white;
+    cursor:pointer;
+    overflow: hidden;  
+    color: white;
+
+}

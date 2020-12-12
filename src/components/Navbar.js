@@ -8,7 +8,7 @@ import { IconContext } from 'react-icons';
 import Input from '@material-ui/core/Input';
 import { InputAdornment } from '@material-ui/core';
 import SearchIcon from '@material-ui/icons/Search';
-import logo from '../assets/ResponsiBid-logo-gold.svg'
+import logo from '../assets/logo.svg'
 
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);
@@ -19,7 +19,7 @@ function Navbar() {
     <>
       <IconContext.Provider value={{ color: '#fff' }}>
         <div className='navbar'>
-          <img src={logo} alt="responsibid" />
+          <img style={{width:'100px', height:"70px"}} src={logo} alt="responsibid" />
           <form>
           <Input style={{background:'#4981b4', borderRadius:'5px', border:'none'}}
                   id="input-with-icon-adornment"

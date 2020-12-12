@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar'
-import Callscreen from './pages/Callscreen';
+import Callscreen from './pages/home/Callscreen';
 import Reports from './pages/Reports';
 import Dashboard from './pages/Dashboard';
 

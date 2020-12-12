@@ -1,34 +1,33 @@
 import React from 'react';
-import { BiPhone } from "react-icons/bi";
-import { IoSpeedometer } from "react-icons/io5";
-import { FaChartBar, FaLightbulb } from "react-icons/fa";
+import { BiHome, BiPhone } from "react-icons/bi";
+import { FcAbout, FcServices } from "react-icons/fc";
 import { BsPencilSquare } from "react-icons/bs";
 import { FiSettings } from "react-icons/fi";
       
 
 export const SidebarData = [
   {
-    title: 'Callscreen',
+    title: 'Home',
     path: '/',
+    icon: < BiHome />,
+    cName: 'nav-text'
+  },
+  {
+    title: 'About Us',
+    path: '/dashboard',
+    icon : < FcAbout />,
+    cName: 'nav-text'
+  },
+  {
+    title: 'Contact Us',
+    path: '/reports',
     icon: < BiPhone />,
     cName: 'nav-text'
   },
   {
-    title: 'Dashboard',
-    path: '/dashboard',
-    icon : < IoSpeedometer />,
-    cName: 'nav-text'
-  },
-  {
-    title: 'Reports',
-    path: '/reports',
-    icon: < FaChartBar />,
-    cName: 'nav-text'
-  },
-  {
-    title: 'Use LightBox',
+    title: 'Our Services',
     path: '/team',
-    icon: <FaLightbulb />,
+    icon: <FcServices />,
     cName: 'nav-text'
   },
   {
